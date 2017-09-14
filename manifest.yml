@@ -1,10 +1,6 @@
 applications:
-- path: .
-  name: webpack
-  host: webpack
+- name: webpack
   random-route: true
-  memory: 256M
-  instances: 1
-  domain: mybluemix.net
-  buildpack: sdk-for-nodejs
-  disk_quota: 1024M
+  memory: 960M
+  disk_quota: 960M
+- buildpack: sdk-for-nodejs
