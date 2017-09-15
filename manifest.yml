@@ -6,3 +6,4 @@ applications:
   name: webpack
   host: webpack
   disk_quota: 960M
+  random-route: false
