@@ -4,13 +4,15 @@ language: node_js
 node_js:
 - 6.9.5
 script:
-- PORT=8888 npm start &
 - sleep 3
-- curl http://localhost:8888
 deploy:
--provider: script
-skip cleanup: true
-script:
-- node_modules/.bin/deploy_to_bluemix.sh
-on:
-branch: master
+  provider: bluemixcloudfoundry
+  skip_cleanup: true
+  manifest: manifest.yml
+  username: $CF_ID
+  password: $CF_PWD
+  organization: $CF_ORG
+  api: $CF_TARGET
+  space: $CF_SPACE
+  on:
+    branch: master
