@@ -1,6 +1,0 @@
-applications:
-- name: webpack
-  random-route: true
-  memory: 960M
-  disk_quota: 960M
-- buildpack: sdk-for-nodejs
