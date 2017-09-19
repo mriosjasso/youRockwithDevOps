@@ -42576,7 +42576,7 @@ var AppComponent = (function () {
             encapsulation: core_1.ViewEncapsulation.Emulated,
             selector: 'app',
             styles: ["\n    * { padding:0; margin:0; font-family: 'Helvetica Neue', sans-serif; }\n    #universal { text-align:center; font-weight:bold; padding:15px 0; }\n    nav { background:#6bbfab; min-height:40px; border-bottom:5px #046923 solid; }\n    nav a { font-weight:bold; text-decoration:none; color:#fff; padding:20px; display:inline-block; }\n    nav a:hover { background:#316659; }\n    .hero-universal { min-height:500px; display:block; padding:20px; background: url('/assets/vancouver.jpg') no-repeat center center; }\n    .inner-hero { background: rgba(255, 255, 255, 0.75); border:5px #ccc solid; padding:25px; }\n    .router-link-active { background-color: #8ed1c1; }\n    main { padding:20px 0; }\n    pre { font-size:12px; }\n  "],
-            template: "\n  <h1 id=\"universal\">You Rock with DevOps</h1>\n  <nav>\n    <a routerLinkActive=\"router-link-active\" routerLink=\"home\">Home</a>\n    <a routerLinkActive=\"router-link-active\" routerLink=\"about\">About Us</a>\n  </nav>\n  <div class=\"hero-universal\">\n    <div class=\"inner-hero\">\n      <div>\n        <span xLarge>You Rock With DevOps, {{ title }}!</span>\n      </div>\n\n      Type here your nome: <input type=\"text\" [value]=\"title\" (input)=\"title = $event.target.value\">\n\n      <br>\n      <br>\n\n      <main>\n        <router-outlet></router-outlet>\n      </main>\n    </div>\n  </div>\n  "
+            template: "\n  <h1 id=\"universal\">You Rock with DevOps</h1>\n  <nav>\n    <a routerLinkActive=\"router-link-active\" routerLink=\"home\">Home</a>\n    <a routerLinkActive=\"router-link-active\" routerLink=\"about\">About Us</a>\n  </nav>\n  <div class=\"hero-universal\">\n    <div class=\"inner-hero\">\n      <div>\n        <span xLarge>You Rock With DevOps, {{ title }}!</span>\n      </div>\n\n      Type here your name: <input type=\"text\" [value]=\"title\" (input)=\"title = $event.target.value\">\n\n      <br>\n      <br>\n\n      <main>\n        <router-outlet></router-outlet>\n      </main>\n    </div>\n  </div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -63571,7 +63571,7 @@ module.exports = "blockquote {\n  border-left:5px #167BDA solid;\n  background:#
 /* 412 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"home\">\n  <h4>Here you can find some resources we used for this Presentation / Workshop</h4>\n</div>\n"
+module.exports = "<div class=\"home\">\n  <h4>Here you can find some resources we used for this Presentation/Workshop</h4>\n  <a href=\"https://www.ibm.com/ibm/devops/us/en/resources/dummiesbooks/\">DevOps For Dummies</a>\n</div>\n"
 
 /***/ }),
 /* 413 */
