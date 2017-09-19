@@ -46,7 +46,7 @@ export class XLargeDirective {
         <span xLarge>You Rock With DevOps, {{ title }}!</span>
       </div>
 
-      Type here your nome: <input type="text" [value]="title" (input)="title = $event.target.value">
+      Type here your name: <input type="text" [value]="title" (input)="title = $event.target.value">
 
       <br>
       <br>
