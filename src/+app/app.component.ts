@@ -25,7 +25,7 @@ export class XLargeDirective {
   styles: [`
     * { padding:0; margin:0; font-family: 'Helvetica Neue', sans-serif; }
     #universal { text-align:center; font-weight:bold; padding:15px 0; }
-    nav { background:#15d6ef; min-height:40px; border-bottom:5px #046923 solid; }
+    nav { background: #88d8be; min-height:40px; border-bottom:5px #046923 solid; }
     nav a { font-weight:bold; text-decoration:none; color:#fff; padding:20px; display:inline-block; }
     nav a:hover { background:#316659; }
     .hero-universal { min-height:500px; display:block; padding:20px; background: url('/assets/vancouver.jpg') no-repeat center center; }
