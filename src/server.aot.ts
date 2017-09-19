@@ -19,9 +19,6 @@ import { enableProdMode } from '@angular/core';
 // Angular 2 Universal
 import { createEngine } from 'angular2-express-engine';
 
-// App
-import { MainModuleNgFactory } from './node.module.ngfactory';
-
 // Routes
 import { routes } from './server.routes';
 
@@ -34,7 +31,6 @@ const ROOT = path.join(path.resolve(__dirname, '..'));
 // Express View
 app.engine('.html', createEngine({
   precompile: false, // this needs to be false when using ngFactory
-  ngModule: MainModuleNgFactory,
   providers: [
     // use only if you have shared state between users
     // { provide: 'LRU', useFactory: () => new LRU(10) }
