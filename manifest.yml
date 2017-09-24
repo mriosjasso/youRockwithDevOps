@@ -3,7 +3,7 @@ applications:
   memory: 960M
   instances: 1
   domain: mybluemix.net
-  name: youRockwithDevOps
-  host: youRockwithDevOps
+  name: devopsworkshopjisel
+  host: devopsworkshopjisel
   disk_quota: 960M
   random-route: false
