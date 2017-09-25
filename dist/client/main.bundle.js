@@ -63571,7 +63571,7 @@ module.exports = "blockquote {\n  border-left:5px #167BDA solid;\n  background:#
 /* 412 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"home\">\n  <h4>Here you can find some resources we used for this Presentation/Workshop</h4>\n  <a href=\"https://www.ibm.com/ibm/devops/us/en/resources/dummiesbooks/\">DevOps for Dummies</a>\n</div>\n"
+module.exports = "<div class=\"home\">\n    <h4>Here you can find some resources we used for this Presentation/Workshop</h4>\n    <a href=\"https://www.ibm.com/ibm/devops/us/en/resources/dummiesbooks/\">DevOps for Dummies!</a>\n</div>"
 
 /***/ }),
 /* 413 */
