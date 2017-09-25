@@ -41901,7 +41901,7 @@ var AboutComponent = (function () {
             changeDetection: core_1.ChangeDetectionStrategy.Default,
             encapsulation: core_1.ViewEncapsulation.Emulated,
             selector: 'about',
-            template: "Hi, we are Mariana and Jisel from IBM Guadalajara. It's been a pleasure to meet you all!"
+            template: "Hi, we are Mariana and Jisel from IBM Guadalajara! It's been a pleasure to meet you all!"
         }),
         __param(0, core_1.Inject('req')), 
         __metadata('design:paramtypes', [Object])
