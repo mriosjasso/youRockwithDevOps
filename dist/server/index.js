@@ -41901,7 +41901,7 @@ var AboutComponent = (function () {
             changeDetection: core_1.ChangeDetectionStrategy.Default,
             encapsulation: core_1.ViewEncapsulation.Emulated,
             selector: 'about',
-            template: "Hi, we are Mariana and Jisel from IBM Guadalajara. It's been a pleasure to meet you all!"
+            template: "Hi, we are Mariana and Jisel from IBM Guadalajara! It's been a pleasure to meet you all!"
         }),
         __param(0, core_1.Inject('req')), 
         __metadata('design:paramtypes', [Object])
@@ -57595,7 +57595,7 @@ module.exports = "blockquote {\n  border-left:5px #167BDA solid;\n  background:#
 /* 399 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"home\">\n  <h4>Here you can find some resources we used for this Presentation/Workshop</h4>\n  <a href=\"https://www.ibm.com/ibm/devops/us/en/resources/dummiesbooks/\">DevOps for Dummies</a>\n</div>\n"
+module.exports = "<div class=\"home\">\n    <h4>Here you can find some resources we used for this Presentation/Workshop</h4>\n    <a href=\"https://www.ibm.com/ibm/devops/us/en/resources/dummiesbooks/\">DevOps for Dummies!</a>\n</div>"
 
 /***/ }),
 /* 400 */
