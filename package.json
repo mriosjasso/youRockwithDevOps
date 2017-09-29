@@ -1,10 +1,10 @@
 {
-  "name": "cognitive-provisioning-portal",
+  "name": "yourockwithdevops",
   "version": "1.0.0",
-  "description": "Provisioning Web portal for Cognitive@IBM services",
+  "description": "Workshop of DevOps for Nodejs Interactive NA 2017",
   "repository": {
     "type": "git",
-    "url": "https://github.ibm.com/Analytics-IBM/cognitive-provisioning-portal.git"
+    "url": "https://github.ibm.com/mriosjasso/cognitive-provisioning-portal.git"
   },
   "scripts": {
     "build": "webpack  --progress",

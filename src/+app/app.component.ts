@@ -35,7 +35,7 @@ export class XLargeDirective {
     pre { font-size:12px; }
   `],
   template: `
-  <h1 id="universal">You Rock with DevOps</h1>
+  <h1 id="universal">You Rock with DevOps!</h1>
   <nav>
     <a routerLinkActive="router-link-active" routerLink="home">Home</a>
     <a routerLinkActive="router-link-active" routerLink="about">About Us</a>
