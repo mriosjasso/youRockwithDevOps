@@ -25,7 +25,7 @@ export class XLargeDirective {
   styles: [`
     * { padding:0; margin:0; font-family: 'Helvetica Neue', sans-serif; }
     #universal { text-align:center; font-weight:bold; padding:15px 0; }
-    nav { background: #88d8be; min-height:40px; border-bottom:5px #046923 solid; }
+    nav { background: ##9932CC; min-height:40px; border-bottom:5px #046923 solid; }
     nav a { font-weight:bold; text-decoration:none; color:#fff; padding:20px; display:inline-block; }
     nav a:hover { background:#316659; }
     .hero-universal { min-height:500px; display:block; padding:20px; background: url('/assets/vancouver.jpg') no-repeat center center; }
@@ -35,7 +35,7 @@ export class XLargeDirective {
     pre { font-size:12px; }
   `],
   template: `
-  <h1>You Rock with DevOps!</h1>
+  <h1>You Rock with DevOps, Vancouver!</h1>
   <nav>
     <a routerLinkActive="router-link-active" routerLink="home">Home</a>
     <a routerLinkActive="router-link-active" routerLink="about">About Us</a>
